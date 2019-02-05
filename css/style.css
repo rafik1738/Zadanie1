@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	width: 100%;
+	align-content: center;
+}
+.aktualnosci .title{
+	height: 210px;
+	margin: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.aktualnosci .photo1-1{
+	background: url(../img/img_01.jpg) center center no-repeat;
+}
+.aktualnosci .photo1-2{
+	background: url(../img/img_02.jpg) center center no-repeat;
+}
+.aktualnosci .photo1-3{
+	background: url(../img/img_03.jpg) center center no-repeat;
+}
+.aktualnosci .photo2-1{
+	background: url(../img/img_04.jpg) center center no-repeat;
+}
+.aktualnosci .photo2-2{
+	background: url(../img/img_05.jpg) center center no-repeat;
+}
+.aktualnosci .photo2-3{
+	background: url(../img/img_06.jpg) center center no-repeat;
+}
+.news-title{
+	padding: 5px 10px 10px 10px;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.aktualnosci .news-title{
+	margin: 0;
+    padding: 15px;
+    
+  
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+.news-link:hover{
+	text-decoration:none;
+	z-index: 1;
+	background: linear-gradient(to bottom,transparent 0,rgba(0,0,0,.25) 60%,rgba(0,0,0,.75) 100%);
+	border-bottom: 2px solid red;
+	
+}
+.title:hover{
+	background-color: rgba(255,0,4,1.00);
+}
